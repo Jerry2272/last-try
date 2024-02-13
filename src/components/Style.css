@@ -1,0 +1,20 @@
+.style{
+    font-size: 45px;
+    color: lime;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: loading infinite 10s linear ;
+  }
+
+
+  @keyframes loading {
+    50% {
+      color: red;
+    }
+    75% {
+        color: gray;
+      }
+    100% {
+      color: yellow;
+    }
+  }
